@@ -1,0 +1,9 @@
+{
+  "name": "totallywicked/rick-and-morty",
+  "description": "The Totally Wicked PHP developer test",
+  "type": "project",
+  "require": {},
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
+
