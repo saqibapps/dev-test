@@ -15,15 +15,16 @@ To get started, you'll need the following:
  - [Composer](https://getcomposer.org/)
  - git
  
- You are free to use whatever PHP packages and front-end libraries that you 
+ You are free to use whatever PHP composer packages and front-end libraries that you 
  wish.
 
 ## Task Requirements
-To order to complete this challenge, you MUST create an encyclopedia with minimal 
-functionality. Your solution MUST allow the user to browse the full list of 
-Rick and Morty characters in a convenient manner, as well as offer some form of search 
-functionality. Your solution MUST also display basic information for a specific 
-character, including:
+In order to complete this challenge, you MUST create an encyclopedia with minimal 
+functionality using php in an object oriented manner and having corect MVC structure.
+
+Your solution MUST allow the user to browse the full list of Rick and Morty characters 
+in a convenient manner, as well as offer some form of search functionality. Your solution 
+MUST also display basic information for a specific character, including:
 
  - At least one image
  - Name
