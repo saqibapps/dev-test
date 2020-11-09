@@ -1,0 +1,38 @@
+<?php $episodes = $char['episodes'] ;?>
+
+<div class="row col-6">
+
+	<h2>List of Episodes</h2>
+
+</div>
+
+
+<div class="row">
+	
+	<div class="pt-4">
+		
+		<div>
+			
+			<ul>
+			
+				<?php  foreach ( $episodes as $k => $ep )  { ?>
+			
+					<li>
+					
+						<a href="<?php echo $ep['url'];?>"><?php echo 'Episode '.$ep['episode_num']; ?></a>
+					
+					</li>
+			
+				<?php }?>
+			
+			</ul>
+		
+		</div>
+		
+	</div>
+
+</div>
+
+<?php
+
+

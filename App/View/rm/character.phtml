@@ -1,0 +1,45 @@
+
+<?php include VIEW . 'rm' . DIRECTORY_SEPARATOR . 'header.phtml'; 
+
+$chars = $this->get_view_data();
+$char = $chars['character'];
+
+?>
+
+<div class="container">
+
+	<div class="row">
+	
+		<div class="col-9 pt-5">
+		
+    		 <div class="d-flex justify-content-between" >
+    		 
+    		 	<h1><?php echo $char['name']?></h1>
+    		 
+    		 </div>
+    		 
+    		 <div class="d-flex pt-4">
+        		 <div class="pr-5">Gender <strong><?php echo $char['gender'];?></strong></div>
+        		 <div class="pr-5">Species <strong><?php echo $char['species'];?></strong></div>
+        		 <div class="pr-5">Status <strong><?php echo $char['status'];?></strong></div>
+    		 </div>
+
+
+            <div class="row pt-5">
+            	<div class="col-4 pb-5"><a href="<?php echo $char['url']; ?>"><img src="<?php echo $char['image']; ?>" class="w-100"/></a></div>
+            </div>
+
+			<?php include VIEW . 'rm' . DIRECTORY_SEPARATOR . 'character_episodes.phtml'; ?>
+
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+
+
+<?php include VIEW . 'rm' . DIRECTORY_SEPARATOR . 'footer.phtml'; 
